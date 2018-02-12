@@ -1,0 +1,539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastUpdatedAtString: 2018-02-12T13:04:00.7101906+05:30
+  lastVerifiedAtString: 2018-02-12T13:04:00.7101906+05:30
+  initializedAtString: 2018-02-12T12:57:55.8984994+05:30
+  entries:
+  - path: Traffic_Simulation\Assembly-CSharp.csproj
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Assembly-UnityScript.unityproj
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assembly-UnityScript.unityproj
+    projectPath: Assembly-UnityScript.unityproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike.meta
+    projectPath: Assets\Bike.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\FBX.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\FBX.meta
+    projectPath: Assets\Bike\FBX.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\FBX\S_Bike.FBX
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\FBX\S_Bike.FBX
+    projectPath: Assets\Bike\FBX\S_Bike.FBX
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\FBX\S_Bike.FBX.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\FBX\S_Bike.FBX.meta
+    projectPath: Assets\Bike\FBX\S_Bike.FBX.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Materials.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Materials.meta
+    projectPath: Assets\Bike\Materials.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Materials\M_Bike.mat
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Materials\M_Bike.mat
+    projectPath: Assets\Bike\Materials\M_Bike.mat
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Materials\M_Bike.mat.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Materials\M_Bike.mat.meta
+    projectPath: Assets\Bike\Materials\M_Bike.mat.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Prefabs.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Prefabs.meta
+    projectPath: Assets\Bike\Prefabs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Prefabs\P_Bike.prefab
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Prefabs\P_Bike.prefab
+    projectPath: Assets\Bike\Prefabs\P_Bike.prefab
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Prefabs\P_Bike.prefab.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Prefabs\P_Bike.prefab.meta
+    projectPath: Assets\Bike\Prefabs\P_Bike.prefab.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Scene.unity
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Scene.unity
+    projectPath: Assets\Bike\Scene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Scene.unity.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Scene.unity.meta
+    projectPath: Assets\Bike\Scene.unity.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Shaders.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Shaders.meta
+    projectPath: Assets\Bike\Shaders.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Shaders\AlphaTest_Complete.shader
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Shaders\AlphaTest_Complete.shader
+    projectPath: Assets\Bike\Shaders\AlphaTest_Complete.shader
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Shaders\AlphaTest_Complete.shader.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Shaders\AlphaTest_Complete.shader.meta
+    projectPath: Assets\Bike\Shaders\AlphaTest_Complete.shader.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Textures.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Textures.meta
+    projectPath: Assets\Bike\Textures.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Textures\T_Bike_D.tga
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Textures\T_Bike_D.tga
+    projectPath: Assets\Bike\Textures\T_Bike_D.tga
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Textures\T_Bike_D.tga.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Textures\T_Bike_D.tga.meta
+    projectPath: Assets\Bike\Textures\T_Bike_D.tga.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Textures\T_Bike_N.tga
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Textures\T_Bike_N.tga
+    projectPath: Assets\Bike\Textures\T_Bike_N.tga
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Textures\T_Bike_N.tga.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Textures\T_Bike_N.tga.meta
+    projectPath: Assets\Bike\Textures\T_Bike_N.tga.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Textures\T_Bike_S.tga
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Textures\T_Bike_S.tga
+    projectPath: Assets\Bike\Textures\T_Bike_S.tga
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Bike\Textures\T_Bike_S.tga.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Bike\Textures\T_Bike_S.tga.meta
+    projectPath: Assets\Bike\Textures\T_Bike_S.tga.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Assets\Main.unity
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Main.unity
+    projectPath: Assets\Main.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Library\CurrentMaximizeLayout.dwlt
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Library\ScriptAssemblies\Assembly-UnityScript.dll
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\ScriptAssemblies\Assembly-UnityScript.dll
+    projectPath: Library\ScriptAssemblies\Assembly-UnityScript.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Library\ScriptAssemblies\Assembly-UnityScript.dll.mdb
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\ScriptAssemblies\Assembly-UnityScript.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-UnityScript.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\assetDatabase3
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\05\05e484a937a25084fba0ddb7943f7889
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\05\05e484a937a25084fba0ddb7943f7889
+    projectPath: Library\metadata\05\05e484a937a25084fba0ddb7943f7889
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\05\05e484a937a25084fba0ddb7943f7889.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\05\05e484a937a25084fba0ddb7943f7889.info
+    projectPath: Library\metadata\05\05e484a937a25084fba0ddb7943f7889.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\0d\0d02463d36ce55a418e911153718afbe
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\0d\0d02463d36ce55a418e911153718afbe
+    projectPath: Library\metadata\0d\0d02463d36ce55a418e911153718afbe
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\0d\0d02463d36ce55a418e911153718afbe.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\0d\0d02463d36ce55a418e911153718afbe.info
+    projectPath: Library\metadata\0d\0d02463d36ce55a418e911153718afbe.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\0d\0d717a2c7f8fcd04796e9ec3576cbc5d
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\0d\0d717a2c7f8fcd04796e9ec3576cbc5d
+    projectPath: Library\metadata\0d\0d717a2c7f8fcd04796e9ec3576cbc5d
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\0d\0d717a2c7f8fcd04796e9ec3576cbc5d.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\0d\0d717a2c7f8fcd04796e9ec3576cbc5d.info
+    projectPath: Library\metadata\0d\0d717a2c7f8fcd04796e9ec3576cbc5d.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\10\10586a86641fe2f4c8b41ae1b77b7b6e
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\10\10586a86641fe2f4c8b41ae1b77b7b6e
+    projectPath: Library\metadata\10\10586a86641fe2f4c8b41ae1b77b7b6e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\10\10586a86641fe2f4c8b41ae1b77b7b6e.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\10\10586a86641fe2f4c8b41ae1b77b7b6e.info
+    projectPath: Library\metadata\10\10586a86641fe2f4c8b41ae1b77b7b6e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\2c\2cb8afe6b5f07494eafb0fdf1342b9be
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\2c\2cb8afe6b5f07494eafb0fdf1342b9be
+    projectPath: Library\metadata\2c\2cb8afe6b5f07494eafb0fdf1342b9be
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\50\50f7cf1b2e0a85045b1a9fa61055ba8e
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\50\50f7cf1b2e0a85045b1a9fa61055ba8e
+    projectPath: Library\metadata\50\50f7cf1b2e0a85045b1a9fa61055ba8e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\50\50f7cf1b2e0a85045b1a9fa61055ba8e.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\50\50f7cf1b2e0a85045b1a9fa61055ba8e.info
+    projectPath: Library\metadata\50\50f7cf1b2e0a85045b1a9fa61055ba8e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\72\72c1d5e2ab02ebd49a7c0e91d1043f73
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\72\72c1d5e2ab02ebd49a7c0e91d1043f73
+    projectPath: Library\metadata\72\72c1d5e2ab02ebd49a7c0e91d1043f73
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\72\72c1d5e2ab02ebd49a7c0e91d1043f73.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\72\72c1d5e2ab02ebd49a7c0e91d1043f73.info
+    projectPath: Library\metadata\72\72c1d5e2ab02ebd49a7c0e91d1043f73.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\7e\7ea5ea61832b6574b955df5b0ece6d75
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\7e\7ea5ea61832b6574b955df5b0ece6d75
+    projectPath: Library\metadata\7e\7ea5ea61832b6574b955df5b0ece6d75
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\7e\7ea5ea61832b6574b955df5b0ece6d75.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\7e\7ea5ea61832b6574b955df5b0ece6d75.info
+    projectPath: Library\metadata\7e\7ea5ea61832b6574b955df5b0ece6d75.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\88\887cf33791b34374e93d7d79e158185e
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\88\887cf33791b34374e93d7d79e158185e
+    projectPath: Library\metadata\88\887cf33791b34374e93d7d79e158185e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\88\887cf33791b34374e93d7d79e158185e.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\88\887cf33791b34374e93d7d79e158185e.info
+    projectPath: Library\metadata\88\887cf33791b34374e93d7d79e158185e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\8e\8e2cd0749baa9fd4fa48df11c5de5b41
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\8e\8e2cd0749baa9fd4fa48df11c5de5b41
+    projectPath: Library\metadata\8e\8e2cd0749baa9fd4fa48df11c5de5b41
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\8e\8e2cd0749baa9fd4fa48df11c5de5b41.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\8e\8e2cd0749baa9fd4fa48df11c5de5b41.info
+    projectPath: Library\metadata\8e\8e2cd0749baa9fd4fa48df11c5de5b41.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\95\95d099024c7e933498e5a9fdcfb7b64b
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\95\95d099024c7e933498e5a9fdcfb7b64b
+    projectPath: Library\metadata\95\95d099024c7e933498e5a9fdcfb7b64b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\95\95d099024c7e933498e5a9fdcfb7b64b.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\95\95d099024c7e933498e5a9fdcfb7b64b.info
+    projectPath: Library\metadata\95\95d099024c7e933498e5a9fdcfb7b64b.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\97\97f2ee542c1f24e498dc877f851d894b
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\97\97f2ee542c1f24e498dc877f851d894b
+    projectPath: Library\metadata\97\97f2ee542c1f24e498dc877f851d894b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\97\97f2ee542c1f24e498dc877f851d894b.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\97\97f2ee542c1f24e498dc877f851d894b.info
+    projectPath: Library\metadata\97\97f2ee542c1f24e498dc877f851d894b.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\9c\9c5e5ea5b78c94f49bea3cb63285d301
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\9c\9c5e5ea5b78c94f49bea3cb63285d301
+    projectPath: Library\metadata\9c\9c5e5ea5b78c94f49bea3cb63285d301
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\bb\bbd220fc11f5d6f40b28047fd34b0b6d
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\bb\bbd220fc11f5d6f40b28047fd34b0b6d
+    projectPath: Library\metadata\bb\bbd220fc11f5d6f40b28047fd34b0b6d
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\metadata\bb\bbd220fc11f5d6f40b28047fd34b0b6d.info
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\metadata\bb\bbd220fc11f5d6f40b28047fd34b0b6d.info
+    projectPath: Library\metadata\bb\bbd220fc11f5d6f40b28047fd34b0b6d.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Traffic_Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Library\AssetVersioning.db
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\AssetVersioning.db
+    projectPath: Library\AssetVersioning.db
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Library\gfu\cache\branches.yaml
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Library\gfu\cache\gitlocks.yaml
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Library\gfu\cache\gitlog.yaml
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Library\gfu\cache\gituser.yaml
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Library\gfu\cache\repoinfo.yaml
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\Assembly-CSharp.dll
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\Assembly-CSharp.dll
+    projectPath: Temp\Assembly-CSharp.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\Assembly-CSharp.dll.mdb
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\Assembly-CSharp.dll.mdb
+    projectPath: Temp\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\Assembly-UnityScript.dll
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\Assembly-UnityScript.dll
+    projectPath: Temp\Assembly-UnityScript.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\Assembly-UnityScript.dll.mdb
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\Assembly-UnityScript.dll.mdb
+    projectPath: Temp\Assembly-UnityScript.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\TarGZ\archtemp.tar
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\TarGZ\archtemp.tar
+    projectPath: Temp\TarGZ\archtemp.tar
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\UnityLockfile
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\UnityTempFile-00fd4f8805c3e3040872d35e017fe24e
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\UnityTempFile-00fd4f8805c3e3040872d35e017fe24e
+    projectPath: Temp\UnityTempFile-00fd4f8805c3e3040872d35e017fe24e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\UnityTempFile-42e31b2745c43c3498c65e20bb5c8056
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\UnityTempFile-42e31b2745c43c3498c65e20bb5c8056
+    projectPath: Temp\UnityTempFile-42e31b2745c43c3498c65e20bb5c8056
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\UnityTempFile-7e4f6703207e4324296424a1030863f3
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\UnityTempFile-7e4f6703207e4324296424a1030863f3
+    projectPath: Temp\UnityTempFile-7e4f6703207e4324296424a1030863f3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\UnityTempFile-f0c5c43141048384b9a476c36a4721b2
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\UnityTempFile-f0c5c43141048384b9a476c36a4721b2
+    projectPath: Temp\UnityTempFile-f0c5c43141048384b9a476c36a4721b2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Traffic_Simulation\Temp\__Backupscenes\0.backup
+    fullPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 1
+    staged: 0

@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 675
-  m_MinSize: {x: 917, y: 421}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 909, y: 421}
+  m_MaxSize: {x: 22004, y: 10000}
   vertical: 0
-  controlID: 2741
+  controlID: 1622
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 2742
+  controlID: 1592
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,14 +179,14 @@ MonoBehaviour:
     width: 462
     height: 397
   m_SceneLighting: 0
-  lastFramingTime: 9328.42994908358
+  lastFramingTime: 679.3750895934722
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0.7520845, z: -0.11596656}
+    m_Target: {x: -0, y: 0, z: -1.28}
     speed: 2
-    m_Value: {x: 0, y: 0.7520845, z: -0.11596656}
+    m_Value: {x: 0, y: 0, z: -1.28}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -209,17 +209,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.012513267, y: -0.80287397, z: -0.016862836, w: -0.59577894}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: -0.012513267, y: 0.8028739, z: 0.016862836, w: 0.59577894}
+    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
   m_Size:
-    m_Target: 8.954618
+    m_Target: 18.778177
     speed: 2
-    m_Value: 8.954618
+    m_Value: 18.778177
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_LastSceneViewRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LastSceneViewOrtho: 1
   m_ReplacementShader: {fileID: 0}
@@ -330,9 +330,9 @@ MonoBehaviour:
     height: 654
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d63d0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 988dffff0690ffffcc97ffff509affff28a5ffff28fbffff00000000
+    m_SelectedIDs: faeaffff
+    m_LastClickedID: -5382
+    m_ExpandedIDs: 66efffffaaf2ffff36f4fffff2faffffd8fbffff000000007c330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -351,7 +351,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - 
+  - Scene
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -417,19 +417,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/ModernCar01/ModernCar01/3D
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/ModernCar01/ModernCar01/3D
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f2320000
-    m_LastClickedID: 13042
-    m_ExpandedIDs: 48250000ea2b0000f02b0000f22b0000f82b0000ce320000f032000000ca9a3bffffff7f
+    m_SelectedIDs: c6240000
+    m_LastClickedID: 9414
+    m_ExpandedIDs: 00000000c624000074250000de250000a6260000c626000014270000bc280000682a00001e2b0000622b00006e2b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,7 +457,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 48250000ea2b0000f02b0000f22b0000f82b0000ce32000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000c624000074250000de250000a6260000c626000014270000bc280000682a00001e2b0000622b00006e2b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,10 +482,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d63d0000
-    m_LastClickedInstanceID: 15830
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 00000000883c0000a43d0000
+    m_SelectedInstanceIDs: faeaffff
+    m_LastClickedInstanceID: -5382
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 00000000883c0000a43d000002250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 219.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 212
 --- !u!114 &12
@@ -530,8 +530,8 @@ MonoBehaviour:
     y: 0
     width: 281
     height: 675
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}

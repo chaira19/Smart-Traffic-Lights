@@ -53,7 +53,6 @@
      <Compile Include="Assets\ModernCar01\additional\damageSystem\damageTrigger.cs" />
      <None Include="Assets\BackgroundCars\FreeCar\BackgroundCar-Free.txt" />
      <None Include="Assets\ModernCar01\additional\EasySkidmarks\Skidmarks\Skidmarks.shader" />
-     <None Include="Assets\Bike\Shaders\AlphaTest_Complete.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
