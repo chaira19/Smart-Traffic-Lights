@@ -50,6 +50,7 @@
      <Compile Include="Assets\ModernCar01\additional\EasySkidmarks\Wheel Skidmarks.js" />
      <Compile Include="Assets\ModernCar01\additional\cWalker\cWalker.js" />
      <Compile Include="Assets\Police_Car\strobe_light2.js" />
+     <Compile Include="Assets\RoadKit\MouseOrbit.js" />
      <None Include="Assets\BackgroundCars\FreeCar\BackgroundCar-Free.txt" />
      <None Include="Assets\ModernCar01\additional\EasySkidmarks\Skidmarks\Skidmarks.shader" />
  <Reference Include="UnityEngine.UI">

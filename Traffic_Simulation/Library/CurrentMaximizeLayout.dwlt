@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 675
-  m_MinSize: {x: 909, y: 421}
-  m_MaxSize: {x: 22004, y: 10000}
+  m_MinSize: {x: 917, y: 442}
+  m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 1622
+  controlID: 1116
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 464
     height: 675
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 1592
+  controlID: 1117
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,14 +179,14 @@ MonoBehaviour:
     width: 462
     height: 397
   m_SceneLighting: 0
-  lastFramingTime: 679.3750895934722
+  lastFramingTime: 33841.23502185311
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0, y: 0, z: -1.28}
+    m_Target: {x: 213.79121, y: 1.5324509, z: 80.812225}
     speed: 2
-    m_Value: {x: 0, y: 0, z: -1.28}
+    m_Value: {x: 213.79121, y: 1.5324509, z: 80.812225}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -211,11 +211,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
+    m_Value: {x: -0.7071069, y: -0, z: -0, w: -0.7071069}
   m_Size:
-    m_Target: 18.778177
+    m_Target: 40.932034
     speed: 2
-    m_Value: 18.778177
+    m_Value: 40.932034
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -330,28 +330,28 @@ MonoBehaviour:
     height: 654
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: faeaffff
-    m_LastClickedID: -5382
-    m_ExpandedIDs: 66efffffaaf2ffff36f4fffff2faffffd8fbffff000000007c330000
+    m_SelectedIDs: aa3b0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 7822ffff64f8ffffd8fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Car
+      m_OriginalName: Car
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -56940
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Scene
+  - Main
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -417,19 +417,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Standard Assets/Vehicles/Car/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Standard Assets/Vehicles/Car/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6240000
-    m_LastClickedID: 9414
-    m_ExpandedIDs: 00000000c624000074250000de250000a6260000c626000014270000bc280000682a00001e2b0000622b00006e2b000000ca9a3bffffff7f
+    m_SelectedIDs: a83f0000
+    m_LastClickedID: 16296
+    m_ExpandedIDs: 00000000cc2400007a250000e4250000a4260000c22600000c270000b4280000642a0000a22a00005e2b00006a2b0000823f00009c3f00009e3f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,7 +457,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c624000074250000de250000a6260000c626000014270000bc280000682a00001e2b0000622b00006e2b000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000cc2400007a250000e4250000a4260000c22600000c270000b4280000642a0000a22a00005e2b00006a2b00009e3f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,9 +482,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: faeaffff
-    m_LastClickedInstanceID: -5382
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: aa3b0000
+    m_LastClickedInstanceID: 15274
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000883c0000a43d000002250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -530,8 +530,8 @@ MonoBehaviour:
     y: 0
     width: 281
     height: 675
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -564,7 +564,7 @@ MonoBehaviour:
     y: 92
     width: 279
     height: 654
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 88.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 100

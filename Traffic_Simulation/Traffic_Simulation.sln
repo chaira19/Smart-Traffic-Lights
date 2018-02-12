@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traffic_Simulation", "Assembly-CSharp.csproj", "{CEB09B67-DE06-94DE-11AC-54D2D398BBCF}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traffic_Simulation.Plugins", "Traffic_Simulation.Plugins.csproj", "{32620680-DB03-F84D-A0F3-EFD5613FC931}"
 EndProject
-Project("{178D5E9E-D69A-525E-E21F-793255B0C313}") = "Traffic_Simulation", "Assembly-UnityScript.unityproj", "{2075C08F-CCC4-E217-31ED-AC091ABE6FB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traffic_Simulation", "Traffic_Simulation.csproj", "{F01C4134-6A16-FA13-79EF-7CFD7B98967E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traffic_Simulation.Editor.Plugins", "Traffic_Simulation.Editor.Plugins.csproj", "{D2F270B6-FCA6-262E-D012-F62F4B805806}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,19 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CEB09B67-DE06-94DE-11AC-54D2D398BBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEB09B67-DE06-94DE-11AC-54D2D398BBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEB09B67-DE06-94DE-11AC-54D2D398BBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEB09B67-DE06-94DE-11AC-54D2D398BBCF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2075C08F-CCC4-E217-31ED-AC091ABE6FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2075C08F-CCC4-E217-31ED-AC091ABE6FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2075C08F-CCC4-E217-31ED-AC091ABE6FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2075C08F-CCC4-E217-31ED-AC091ABE6FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32620680-DB03-F84D-A0F3-EFD5613FC931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32620680-DB03-F84D-A0F3-EFD5613FC931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32620680-DB03-F84D-A0F3-EFD5613FC931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32620680-DB03-F84D-A0F3-EFD5613FC931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01C4134-6A16-FA13-79EF-7CFD7B98967E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01C4134-6A16-FA13-79EF-7CFD7B98967E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01C4134-6A16-FA13-79EF-7CFD7B98967E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01C4134-6A16-FA13-79EF-7CFD7B98967E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F270B6-FCA6-262E-D012-F62F4B805806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F270B6-FCA6-262E-D012-F62F4B805806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F270B6-FCA6-262E-D012-F62F4B805806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F270B6-FCA6-262E-D012-F62F4B805806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

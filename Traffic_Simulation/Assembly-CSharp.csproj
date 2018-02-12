@@ -46,13 +46,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ModernCar01\additional\cDriver0.cs" />
-     <Compile Include="Assets\ModernCar01\additional\cDriver1.cs" />
-     <Compile Include="Assets\ModernCar01\additional\dEnterExit\vehicle_enterexit.cs" />
-     <Compile Include="Assets\ModernCar01\additional\damageSystem\damageControl.cs" />
-     <Compile Include="Assets\ModernCar01\additional\damageSystem\damageTrigger.cs" />
-     <None Include="Assets\BackgroundCars\FreeCar\BackgroundCar-Free.txt" />
-     <None Include="Assets\ModernCar01\additional\EasySkidmarks\Skidmarks\Skidmarks.shader" />
+     <Compile Include="Assets\Vehicles\ModernCar01\additional\cDriver0.cs" />
+     <Compile Include="Assets\Vehicles\ModernCar01\additional\cDriver1.cs" />
+     <Compile Include="Assets\Vehicles\ModernCar01\additional\dEnterExit\vehicle_enterexit.cs" />
+     <Compile Include="Assets\Vehicles\ModernCar01\additional\damageSystem\damageControl.cs" />
+     <Compile Include="Assets\Vehicles\ModernCar01\additional\damageSystem\damageTrigger.cs" />
+     <None Include="Assets\Vehicles\BackgroundCars\FreeCar\BackgroundCar-Free.txt" />
+     <None Include="Assets\Vehicles\ModernCar01\additional\EasySkidmarks\Skidmarks\Skidmarks.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
