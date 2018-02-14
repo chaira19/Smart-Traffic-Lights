@@ -21,6 +21,11 @@ public class Motion : MonoBehaviour {
     private int vehicleno;
     private int startingpoint;
     private int endingpoint;
+
+    private static int A = 0;
+    private static int B = 0;
+    private static int C = 0;
+    private static int D = 0;
 	// Use this for initialization
 	void Start () {
         if(ModeOnClick.automatic == true)
@@ -39,6 +44,23 @@ public class Motion : MonoBehaviour {
             Vehicle = Instantiate(Vehicles[vehicleno], (new Vector3((Random.Range(-9, 9)), 5, 0)), transform.rotation) as GameObject;
         }
         Vehicle.transform.position = StartingObjects[startingpoint].transform.position;
+
+        if(startingpoint == 0 || startingpoint == 1)
+        {
+            A++;
+        }
+        else if(startingpoint == 2 || startingpoint == 3)
+        {
+            B++;
+        }
+        else if(startingpoint == 4 || startingpoint == 5)
+        {
+            C++;
+        }
+        else if(startingpoint == 6 || startingpoint == 7)
+        {
+            D++;
+        }
     }
 
     // Update is called once per frame
@@ -50,29 +72,79 @@ public class Motion : MonoBehaviour {
             Vehicle.transform.position = Vehicle.transform.position + (TurningObjects[startingpoint].transform.position - StartingObjects[startingpoint].transform.position) * Time.deltaTime * 0.1f*speed;
             Vehicle.transform.LookAt(TurningObjects[startingpoint].transform);
         }
-        if(distance(Vehicle, TurningObjects[startingpoint]) < 0.08)
+        if(distance(Vehicle, TurningObjects[startingpoint]) < 0.08 && reachturn == 0)
         {
             reachturn = 1;
+            if (startingpoint == 0 || startingpoint == 1)
+            {
+                A--;
+            }
+            else if (startingpoint == 2 || startingpoint == 3)
+            {
+                B--;
+            }
+            else if (startingpoint == 4 || startingpoint == 5)
+            {
+                C--;
+            }
+            else if (startingpoint == 6 || startingpoint == 7)
+            {
+                D--;
+            }
         }
         if (reachturn == 1 && turn == 0)
         {
             Vehicle.transform.position = Vehicle.transform.position + (TurnedObjects[endingpoint].transform.position - TurningObjects[startingpoint].transform.position) * Time.deltaTime * 0.1f*speed;
             Vehicle.transform.LookAt(TurnedObjects[endingpoint].transform);
         }
-        if (distance(Vehicle, TurnedObjects[endingpoint]) < 0.08)
+        if (distance(Vehicle, TurnedObjects[endingpoint]) < 0.08 && turn == 0)
         {
             turn = 1;
+            if (endingpoint == 0 || endingpoint == 1)
+            {
+                A++;
+            }
+            else if (endingpoint == 2 || endingpoint == 3)
+            {
+                B++;
+            }
+            else if (endingpoint == 4 || endingpoint == 5)
+            {
+                C++;
+            }
+            else if (endingpoint == 6 || endingpoint == 7)
+            {
+                D++;
+            }
         }
         if (reachturn == 1 && turn == 1 && afterturn == 0)
         {
             Vehicle.transform.position = Vehicle.transform.position + (StoppingObjects[endingpoint].transform.position - TurnedObjects[endingpoint].transform.position) * Time.deltaTime * 0.1f*speed;
             Vehicle.transform.LookAt(StoppingObjects[endingpoint].transform);
         }
-        if (distance(Vehicle, StoppingObjects[endingpoint]) < 0.2)
+        if (distance(Vehicle, StoppingObjects[endingpoint]) < 0.2 && afterturn == 0)
         {
             afterturn = 1;
+            if (endingpoint == 0 || endingpoint == 1)
+            {
+                A--;
+            }
+            else if (endingpoint == 2 || endingpoint == 3)
+            {
+                B--;
+            }
+            else if (endingpoint == 4 || endingpoint == 5)
+            {
+                C--;
+            }
+            else if (endingpoint == 6 || endingpoint == 7)
+            {
+                D--;
+            }
             Vehicle.SetActive(false);
         }
+
+        Debug.Log(A.ToString() + B.ToString() + C.ToString() + D.ToString());
     }
 
     private float distance(GameObject a, GameObject b)

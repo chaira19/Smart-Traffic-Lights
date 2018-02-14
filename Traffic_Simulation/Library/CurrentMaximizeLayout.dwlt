@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 12782
+  controlID: 13693
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 12783
+  controlID: 13694
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -330,8 +330,8 @@ MonoBehaviour:
     height: 654
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 502effff
-    m_LastClickedID: -53680
+    m_SelectedIDs: 983b0000
+    m_LastClickedID: 15256
     m_ExpandedIDs: 4e2efffff476fffff676fffff876fffffa76fffffc76ffffd6fbffff00000000b23a00009a3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -417,19 +417,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Standard Assets/Cameras/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Standard Assets/Cameras/Prefabs
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Open_source_projects\Smart-Traffic-Lights\Traffic_Simulation
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 215}
-    m_SelectedIDs: 38310000
-    m_LastClickedID: 12600
-    m_ExpandedIDs: 00000000d8250000ec260000162700003228000094280000ee290000ac2a0000ec2b0000222c0000d42c0000882d0000222e0000202f00005e2f0000f63100007e33000042340000a23500001c3600001a3700005a37000050380000ffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: d8250000
+    m_LastClickedID: 9688
+    m_ExpandedIDs: 00000000d8250000ec260000162700003228000094280000ee290000ac2a0000ec2b0000d42c0000882d0000222e0000202f00005e2f0000f63100007e33000042340000a23500001c3600001a3700005a37000050380000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,7 +457,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d8250000ec260000162700003228000094280000ee290000ac2a0000ec2b0000222c0000d42c0000882d0000222e0000202f00005e2f0000f63100007e33000042340000a23500001c3600001a3700005a37000050380000ffffff7f
+    m_ExpandedIDs: 00000000d8250000ec260000162700003228000094280000ee290000ac2a0000ec2b0000d42c0000882d0000222e0000202f00005e2f0000f63100007e33000042340000a23500001c3600001a3700005a37000050380000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,8 +482,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 502effff
-    m_LastClickedInstanceID: -53680
+    m_SelectedInstanceIDs: 983b0000
+    m_LastClickedInstanceID: 15256
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 00000000883c0000a43d00000225000008250000
     m_RenameOverlay:
