@@ -11,6 +11,8 @@ public class Motion : MonoBehaviour {
     public GameObject[] TurnedObjects = new GameObject[8];
     public GameObject[] StoppingObjects = new GameObject[8];
 
+    public float speed;
+
     private GameObject Vehicle;
 
     private int reachturn = 0;
@@ -45,7 +47,7 @@ public class Motion : MonoBehaviour {
         
         if(reachturn == 0)
         {
-            Vehicle.transform.position = Vehicle.transform.position + (TurningObjects[startingpoint].transform.position - StartingObjects[startingpoint].transform.position) * Time.deltaTime * 0.5f;
+            Vehicle.transform.position = Vehicle.transform.position + (TurningObjects[startingpoint].transform.position - StartingObjects[startingpoint].transform.position) * Time.deltaTime * 0.1f*speed;
             Vehicle.transform.LookAt(TurningObjects[startingpoint].transform);
         }
         if(distance(Vehicle, TurningObjects[startingpoint]) < 0.08)
@@ -54,7 +56,7 @@ public class Motion : MonoBehaviour {
         }
         if (reachturn == 1 && turn == 0)
         {
-            Vehicle.transform.position = Vehicle.transform.position + (TurnedObjects[endingpoint].transform.position - TurningObjects[startingpoint].transform.position) * Time.deltaTime * 0.5f;
+            Vehicle.transform.position = Vehicle.transform.position + (TurnedObjects[endingpoint].transform.position - TurningObjects[startingpoint].transform.position) * Time.deltaTime * 0.1f*speed;
             Vehicle.transform.LookAt(TurnedObjects[endingpoint].transform);
         }
         if (distance(Vehicle, TurnedObjects[endingpoint]) < 0.08)
@@ -63,7 +65,7 @@ public class Motion : MonoBehaviour {
         }
         if (reachturn == 1 && turn == 1 && afterturn == 0)
         {
-            Vehicle.transform.position = Vehicle.transform.position + (StoppingObjects[endingpoint].transform.position - TurnedObjects[endingpoint].transform.position) * Time.deltaTime * 0.5f;
+            Vehicle.transform.position = Vehicle.transform.position + (StoppingObjects[endingpoint].transform.position - TurnedObjects[endingpoint].transform.position) * Time.deltaTime * 0.1f*speed;
             Vehicle.transform.LookAt(StoppingObjects[endingpoint].transform);
         }
         if (distance(Vehicle, StoppingObjects[endingpoint]) < 0.2)
