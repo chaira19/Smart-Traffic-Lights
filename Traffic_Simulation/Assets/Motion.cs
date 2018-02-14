@@ -11,6 +11,8 @@ public class Motion : MonoBehaviour {
     public GameObject[] TurnedObjects = new GameObject[8];
     public GameObject[] StoppingObjects = new GameObject[8];
 
+    private GameObject Vehicle;
+
     private int reachturn = 0;
     private int turn = 0;
     private int afterturn = 0;
@@ -25,41 +27,49 @@ public class Motion : MonoBehaviour {
             startingpoint = Random.Range(0, 7);
             endingpoint = Random.Range(0, 7);
         }
-        Vehicles[vehicleno].transform.position = StartingObjects[startingpoint].transform.position;
-        Vehicles[vehicleno].SetActive(true);
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        if(Vehicles[vehicleno].activeSelf == false)
+        {
+            Vehicle = Vehicles[vehicleno];
+            Vehicle.SetActive(true);
+        }
+        else
+        {
+            Vehicle = Instantiate(Vehicles[vehicleno], (new Vector3((Random.Range(-9, 9)), 5, 0)), transform.rotation) as GameObject;
+        }
+        Vehicle.transform.position = StartingObjects[startingpoint].transform.position;
+    }
+
+    // Update is called once per frame
+    void Update () {
 
         
         if(reachturn == 0)
         {
-            Vehicles[vehicleno].transform.position = Vehicles[vehicleno].transform.position + (TurningObjects[startingpoint].transform.position - StartingObjects[startingpoint].transform.position) * Time.deltaTime * 0.1f;
-            Vehicles[vehicleno].transform.LookAt(TurningObjects[startingpoint].transform);
+            Vehicle.transform.position = Vehicle.transform.position + (TurningObjects[startingpoint].transform.position - StartingObjects[startingpoint].transform.position) * Time.deltaTime * 0.5f;
+            Vehicle.transform.LookAt(TurningObjects[startingpoint].transform);
         }
-        if(distance(Vehicles[vehicleno], TurningObjects[startingpoint]) < 0.08)
+        if(distance(Vehicle, TurningObjects[startingpoint]) < 0.08)
         {
             reachturn = 1;
         }
         if (reachturn == 1 && turn == 0)
         {
-            Vehicles[vehicleno].transform.position = Vehicles[vehicleno].transform.position + (TurnedObjects[endingpoint].transform.position - TurningObjects[startingpoint].transform.position) * Time.deltaTime * 0.1f;
-            Vehicles[vehicleno].transform.LookAt(TurnedObjects[endingpoint].transform);
+            Vehicle.transform.position = Vehicle.transform.position + (TurnedObjects[endingpoint].transform.position - TurningObjects[startingpoint].transform.position) * Time.deltaTime * 0.5f;
+            Vehicle.transform.LookAt(TurnedObjects[endingpoint].transform);
         }
-        if (distance(Vehicles[vehicleno], TurnedObjects[endingpoint]) < 0.08)
+        if (distance(Vehicle, TurnedObjects[endingpoint]) < 0.08)
         {
             turn = 1;
         }
         if (reachturn == 1 && turn == 1 && afterturn == 0)
         {
-            Vehicles[vehicleno].transform.position = Vehicles[vehicleno].transform.position + (StoppingObjects[endingpoint].transform.position - TurnedObjects[endingpoint].transform.position) * Time.deltaTime * 0.1f;
-            Vehicles[vehicleno].transform.LookAt(StoppingObjects[endingpoint].transform);
+            Vehicle.transform.position = Vehicle.transform.position + (StoppingObjects[endingpoint].transform.position - TurnedObjects[endingpoint].transform.position) * Time.deltaTime * 0.5f;
+            Vehicle.transform.LookAt(StoppingObjects[endingpoint].transform);
         }
-        if (distance(Vehicles[vehicleno], StoppingObjects[endingpoint]) < 0.08)
+        if (distance(Vehicle, StoppingObjects[endingpoint]) < 0.2)
         {
             afterturn = 1;
-            Vehicles[vehicleno].SetActive(false);
+            Vehicle.SetActive(false);
         }
     }
 

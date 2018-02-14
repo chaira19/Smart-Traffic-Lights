@@ -5,7 +5,7 @@ using UnityEngine;
 public class multivehicles : MonoBehaviour {
 
     public GameObject onemotion;
-    private float Timer = 10;
+    private float Timer = 2;
 	// Use this for initialization
 	void Start () {
 		
@@ -21,7 +21,7 @@ public class multivehicles : MonoBehaviour {
 
             anothermotion = Instantiate(onemotion, (new Vector3((Random.Range(-9, 9)), 5, 0)), transform.rotation) as GameObject;
             
-            Timer = 10;
+            Timer = 2;
 
         }
     }
