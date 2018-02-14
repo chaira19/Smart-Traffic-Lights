@@ -108,6 +108,7 @@
     <Compile Include="Assets\Vehicles\ModernCar01\additional\dEnterExit\vehicle_enterexit.cs" />
     <Compile Include="Assets\Vehicles\ModernCar01\additional\damageSystem\damageControl.cs" />
     <Compile Include="Assets\Vehicles\ModernCar01\additional\damageSystem\damageTrigger.cs" />
+    <Compile Include="Assets\multivehicles.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />

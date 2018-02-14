@@ -59,6 +59,7 @@ public class Motion : MonoBehaviour {
         if (distance(Vehicles[vehicleno], StoppingObjects[endingpoint]) < 0.08)
         {
             afterturn = 1;
+            Vehicles[vehicleno].SetActive(false);
         }
     }
 
