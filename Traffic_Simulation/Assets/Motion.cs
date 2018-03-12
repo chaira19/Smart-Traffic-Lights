@@ -26,6 +26,12 @@ public class Motion : MonoBehaviour {
     private static int B = 0;
     private static int C = 0;
     private static int D = 0;
+
+    private static bool goA = true, goB = true, goC = true, goD = true;
+    private bool move = true;
+
+    public int threshold = 3;
+
 	// Use this for initialization
 	void Start () {
         if(ModeOnClick.automatic == true)
@@ -48,18 +54,22 @@ public class Motion : MonoBehaviour {
         if(startingpoint == 0 || startingpoint == 1)
         {
             A++;
+            //move = goA;
         }
         else if(startingpoint == 2 || startingpoint == 3)
         {
             B++;
+            //move = goB;
         }
         else if(startingpoint == 4 || startingpoint == 5)
         {
             C++;
+            //move = goC;
         }
         else if(startingpoint == 6 || startingpoint == 7)
         {
             D++;
+            //move = goD;
         }
     }
 
@@ -67,7 +77,7 @@ public class Motion : MonoBehaviour {
     void Update () {
 
         
-        if(reachturn == 0)
+        if(reachturn == 0 && move == true)
         {
             Vehicle.transform.position = Vehicle.transform.position + (TurningObjects[startingpoint].transform.position - StartingObjects[startingpoint].transform.position) * Time.deltaTime * 0.1f*speed;
             Vehicle.transform.LookAt(TurningObjects[startingpoint].transform);
@@ -122,7 +132,7 @@ public class Motion : MonoBehaviour {
             Vehicle.transform.position = Vehicle.transform.position + (StoppingObjects[endingpoint].transform.position - TurnedObjects[endingpoint].transform.position) * Time.deltaTime * 0.1f*speed;
             Vehicle.transform.LookAt(StoppingObjects[endingpoint].transform);
         }
-        if (distance(Vehicle, StoppingObjects[endingpoint]) < 0.2 && afterturn == 0)
+        if (distance(Vehicle, StoppingObjects[endingpoint]) < 0.4 && afterturn == 0)
         {
             afterturn = 1;
             if (endingpoint == 0 || endingpoint == 1)
@@ -143,8 +153,66 @@ public class Motion : MonoBehaviour {
             }
             Vehicle.SetActive(false);
         }
-
+        
+        if(reachturn == 0)
+        {
+            if (startingpoint == 0 || startingpoint == 1)
+            {
+                move = goA;
+            }
+            else if (startingpoint == 2 || startingpoint == 3)
+            {
+                move = goB;
+            }
+            else if (startingpoint == 4 || startingpoint == 5)
+            {
+                move = goC;
+            }
+            else if (startingpoint == 6 || startingpoint == 7)
+            {
+                move = goD; 
+            }
+        }
         Debug.Log(A.ToString() + B.ToString() + C.ToString() + D.ToString());
+
+        if (A < threshold && B < threshold && C < threshold && D < threshold)
+        {
+            goA = true;
+            goB = true;
+            goC = true;
+            goD = true;
+        }
+
+        else if(A>=threshold && B<threshold && C<threshold && D<threshold)
+        {
+            goA = true;
+            goB = false;
+            goC = false;
+            goD = false;
+        }
+        else if (A < threshold && B >= threshold && C < threshold && D < threshold)
+        {
+            goA = false;
+            goB = true;
+            goC = false;
+            goD = false;
+        }
+        else if (A < threshold && B < threshold && C >= threshold && D < threshold)
+        {
+            goA = false;
+            goB = false;
+            goC = true;
+            goD = false;
+        }
+        else if (A < threshold && B < threshold && C < threshold && D >= threshold)
+        {
+            goA = false;
+            goC = false;
+            goB = false;
+            goD = true;
+        }
+
+
     }
 
     private float distance(GameObject a, GameObject b)
@@ -155,4 +223,5 @@ public class Motion : MonoBehaviour {
 
         return x * x + y * y + z * z;
     }
+
 }
