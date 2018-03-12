@@ -174,7 +174,7 @@ public class Motion : MonoBehaviour {
             }
         }
         Debug.Log(A.ToString() + B.ToString() + C.ToString() + D.ToString());
-
+        
         if (A < threshold && B < threshold && C < threshold && D < threshold)
         {
             goA = true;
@@ -182,7 +182,7 @@ public class Motion : MonoBehaviour {
             goC = true;
             goD = true;
         }
-
+        /* // First Algorithm
         else if(A>=threshold && B<threshold && C<threshold && D<threshold)
         {
             goA = true;
@@ -210,7 +210,41 @@ public class Motion : MonoBehaviour {
             goC = false;
             goB = false;
             goD = true;
+        }*/
+
+        // Second Algorithm
+
+        else if (A >= B && A >= C && A >= D)
+        {
+            goA = true;
+            goB = false;
+            goC = false;
+            goD = false;
         }
+        else if (B >= A && B >= C && B >= D)
+        {
+            goA = false;
+            goB = true;
+            goC = false;
+            goD = false;
+        }
+        else if (C >= A && C >= B && C >= D)
+        {
+            goA = false;
+            goB = false;
+            goC = true;
+            goD = false;
+        }
+        else 
+        {
+            goA = false;
+            goC = false;
+            goB = false;
+            goD = true;
+        }
+
+
+
 
 
     }
